@@ -1,0 +1,7 @@
+/qadence_tutorials/qml_logs/
+/qadence_tutorials/mlflow_demonstration/
+/qadence_tutorials/mlruns/
+
+venv
+__pycache__
+.ipynb_checkpoints
