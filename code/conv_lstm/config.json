@@ -1,0 +1,32 @@
+{
+  "data_dir": "./dataset_hdf5",
+  "time_steps": 5,
+  "img_size": [
+    128,
+    128
+  ],
+  "epochs": 50,
+  "batch_size": 64,
+  "learning_rate": 0.01,
+  "train_years": [
+    2018,
+    2019
+  ],
+  "val_years": [
+    2019
+  ],
+  "lr_T_max": 30,
+  "num_workers": 3,
+  "features_to_keep": [
+    -1
+  ],
+  "input_channels": 1,
+  "output_channels": 1,
+  "kernel_size": [
+    3,
+    3
+  ],
+  "num_layers": 1,
+  "loss_fn": "l1",
+  "scheduler": "cosine"
+}

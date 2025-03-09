@@ -1,0 +1,15 @@
+matplotlib==3.10.0
+numpy==1.26.4
+pulser==1.1.1
+pulser_core==1.1.1
+qadence==1.10.3
+sympy==1.12.1
+torch==2.4.1
+tqdm==4.67.1
+torch-geometric==2.6.1
+quantum-evolution-kernel
+jupyterlab==4.3.5
+rasterio
+umap_learn
+imageio
+geotiff

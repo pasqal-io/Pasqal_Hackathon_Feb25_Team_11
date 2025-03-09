@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "code"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.11"
+matplotlib = "3.9.0"
+numpy = "1.26.4"
+pulser = "1.3.0"
+pulser-core = "1.3.0"
+qadence = "1.10.3"
+sympy = "1.12.1"
+torch = "2.4.0"
+tqdm = "4.67.1"
+jupyterlab = "4.3.5"
+scipy = "^1.15.2"
+dimod = "^0.12.18"
+patchify = "^0.2.3"
+pyqubo = "^1.5.0"
+rasterio = "^1.4.3"
+imageio = "^2.37.0"
+torchvision = "0.19"
+scikit-optimize = "^0.10.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+mypy = "^1.15.0"
+flake8 = "^7.1.2"
+pre-commit = "^4.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

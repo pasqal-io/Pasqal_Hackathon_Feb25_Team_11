@@ -1,0 +1,29 @@
+{
+    "batch_size": 32,
+    "time_steps": 5,
+    "img_size": [
+        128,
+        128
+    ],
+    "input_channels": 6,
+    "output_channels": 6,
+    "epochs": 7,
+    "learning_rate": 0.01,
+    "lr_T_max": 30,
+    "train_years": [
+        2018,
+        2019
+    ],
+    "val_years": [
+        2019
+    ],
+    "data_dir": "/home/petark/PycharmProjects/WildfireSpreadTS/dataset_hdf5",
+    "features_to_keep": [
+        4,
+        6,
+        9,
+        12,
+        14,
+        39
+    ]
+}
