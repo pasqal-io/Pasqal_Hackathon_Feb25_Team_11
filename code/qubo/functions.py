@@ -6,8 +6,8 @@ from patchify import patchify
 from pyqubo import Binary
 from scipy import ndimage
 
-from code.qubo.utils import plot_patches, plot_solution, plot_tiff
-from code.utils import get_project_root, read_tiff_file
+from qubo.utils import plot_patches, plot_solution, plot_tiff
+from utils import get_project_root, read_tiff_file
 
 
 def pyqubo_solver(

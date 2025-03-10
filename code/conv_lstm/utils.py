@@ -4,8 +4,8 @@ import torch
 from torch import nn, optim
 import torch.nn.functional as F
 
-from code.conv_lstm.losses import BinaryDiceLoss, FocalLoss
-from code.conv_lstm.model import ConvLSTM
+from conv_lstm.losses import BinaryDiceLoss, FocalLoss
+from conv_lstm.model import ConvLSTM
 
 
 def load_json_config(path: str = "config.json"):
