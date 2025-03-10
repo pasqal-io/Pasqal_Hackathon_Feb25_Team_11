@@ -5,8 +5,8 @@ import numpy as np
 from torch.utils.data import DataLoader
 from matplotlib import pyplot as plt
 
-from conv_lstm.data.tiff import TiffDataset
-from conv_lstm.utils import create_config, load_model, load_json_config
+from code.conv_lstm.data.tiff import TiffDataset
+from code.conv_lstm.utils import create_config, load_model, load_json_config
 
 
 def parse_args():

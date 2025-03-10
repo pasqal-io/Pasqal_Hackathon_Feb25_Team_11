@@ -109,6 +109,7 @@ where
    poetry lock
    poetry install
    ```
+3. Alternatively, you can also use a python/pyenv requirement and simply install the requirements found in the .toml file. We do not guarantee that imports will work as expected with this method.
 
 If you do not have poetry installed follow these instructions:
 
