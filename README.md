@@ -20,9 +20,8 @@ Nations Sustainable Development Goals (SDGs) **13 (Climate Action)** and **15 (L
 
 # Overview
 
-Wildfires are a growing global challenge, with devastating impacts on ecosystems, biodiversity, and human life. **QuRAWC** leverages quantum algorithms to provide real-time decision-making solutions for wildfire containment and prevention.
-By harnessing quantum computational advancements, our goal is to predict wildfire behavior and optimize containment
-strategies effectively.
+Wildfires are a growing global challenge, with devastating impacts on ecosystems, biodiversity, and human life. **QuRAWC** leverages quantum algorithms to provide real-time decision-making solutions for wildfire containment.
+By harnessing quantum computational advancements, our goal is to predict wildfire behavior and optimize containment strategies effectively.
 
 ## Project Structure
 
@@ -45,8 +44,8 @@ strategies effectively.
 
 4. /test
 
-- Example test cases
-- Jupyter Notebooks to present said examples (MWE)
+- Example test cases and tutorials for the different parts of the QuRAWC algorithm
+- Jupyter Notebooks to present said examples (through a Minimal Working Example in the notebook `QuRAWC_tuto.ipynb`)
 
 5. /results
 
@@ -87,8 +86,8 @@ graph LR
     Classical -->|QUBO| QO["Quantum Optimizer"]
     QO -->|Zm| PP["Post Processing"]
     F --> |St| Classical
-    PP -->|∑_t+1| W["Water"]
-    W --> |Clears out| F["Fire"]
+    PP -->|∑_t+1| W["Firefighting Organizations"]
+    W --> |Apply Strategy| F["Fire"]
 ```
 
 where
@@ -102,7 +101,7 @@ where
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/<username>/qurawc.git
+   git clone [https://github.com/<username>/qurawc.git](https://github.com/pasqal-io/Pasqal_Hackathon_Feb25_Team_11.git)
    ```
 2. Install the required dependencies:
    ```sh
